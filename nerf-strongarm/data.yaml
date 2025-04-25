@@ -1,0 +1,13 @@
+train: ../nerf-strongarm/train/images
+val: ../nerf-strongarm/valid/images
+test: ../nerf-strongarm/test/images
+
+nc: 1
+names: ['nerf-maverik']
+
+roboflow:
+  workspace: quade-leonard-qmmok
+  project: nerf-strongarm
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/quade-leonard-qmmok/nerf-strongarm/dataset/2
